@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "TypeScript type definitions for After Effects Script.",
   "main": "index.js",
+  "types": "ae.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
