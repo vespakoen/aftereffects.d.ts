@@ -115,10 +115,10 @@ interface Object {
     propertyIsEnumerable(v: string): boolean;
     
     /** Adds a watch function to a property, which is called when the value changes. */
-    watch(name: string, func: Function);
+    watch(name: string, func: Function): any;
     
     /** Removes the watch function of a property. */
-    unwatch(name: string);
+    unwatch(name: string): any;
 }
 
 /**
@@ -139,7 +139,7 @@ declare var Object: {
     keys(o: any): string[];
     
     /** Reports whether an object is still valid. */
-    isValid(what): boolean;
+    isValid(what: any): boolean;
 }
 
 /**
